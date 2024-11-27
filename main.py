@@ -1,5 +1,12 @@
-num = "abgdevzt"
+x = int(input("Enter number between 1 and 3"))
 
-# this is how to reverse the string
+match x:
+    case 1:
+        print("one")
 
-print(num[::-1])
+    case 2:
+        print("two")
+    case 3:
+        print("three")
+    case _:
+        print("input is out of range")
